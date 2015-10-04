@@ -1,0 +1,207 @@
+C:\Project\ASPnet\AspNet\AspNet\bin\roslyn\csc.exe
+C:\Project\ASPnet\AspNet\AspNet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Project\ASPnet\AspNet\AspNet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Project\ASPnet\AspNet\AspNet\bin\roslyn\System.Collections.Immutable.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\roslyn\vbc.exe
+C:\Project\ASPnet\AspNet\AspNet\bin\roslyn\VBCSCompiler.exe
+C:\Project\ASPnet\AspNet\AspNet\bin\roslyn\VBCSCompiler.exe.config
+C:\Project\ASPnet\AspNet\AspNet\bin\AspNet.dll.config
+C:\Project\ASPnet\AspNet\AspNet\bin\AspNet.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\AspNet.pdb
+C:\Project\ASPnet\AspNet\AspNet\bin\Antlr3.Runtime.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\EntityFramework.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\EntityFramework.SqlServer.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.Google.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Web.Infrastructure.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Newtonsoft.Json.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Owin.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.Helpers.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.Mvc.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.Optimization.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.Razor.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.WebPages.Deployment.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.WebPages.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.WebPages.Razor.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\WebGrease.dll
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.Helpers.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.Mvc.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.Optimization.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.Razor.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.WebPages.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.WebPages.Deployment.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\System.Web.WebPages.Razor.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Antlr3.Runtime.pdb
+C:\Project\ASPnet\AspNet\AspNet\bin\Newtonsoft.Json.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\EntityFramework.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\EntityFramework.SqlServer.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.Google.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Project\ASPnet\AspNet\AspNet\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Project\ASPnet\AspNet\AspNet\obj\Debug\AspNet.csprojResolveAssemblyReference.cache
+C:\Project\ASPnet\AspNet\AspNet\obj\Debug\AspNet.dll
+C:\Project\ASPnet\AspNet\AspNet\obj\Debug\AspNet.pdb
+C:\Project\AspNet\AspNet\bin\roslyn\csc.exe
+C:\Project\AspNet\AspNet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Project\AspNet\AspNet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Project\AspNet\AspNet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Project\AspNet\AspNet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Project\AspNet\AspNet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Project\AspNet\AspNet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Project\AspNet\AspNet\bin\roslyn\System.Collections.Immutable.dll
+C:\Project\AspNet\AspNet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Project\AspNet\AspNet\bin\roslyn\vbc.exe
+C:\Project\AspNet\AspNet\bin\roslyn\VBCSCompiler.exe
+C:\Project\AspNet\AspNet\bin\roslyn\VBCSCompiler.exe.config
+C:\Project\AspNet\AspNet\bin\AspNet.dll.config
+C:\Project\AspNet\AspNet\bin\AspNet.dll
+C:\Project\AspNet\AspNet\bin\AspNet.pdb
+C:\Project\AspNet\AspNet\bin\Antlr3.Runtime.dll
+C:\Project\AspNet\AspNet\bin\EntityFramework.dll
+C:\Project\AspNet\AspNet\bin\EntityFramework.SqlServer.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.Google.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.Web.Infrastructure.dll
+C:\Project\AspNet\AspNet\bin\Newtonsoft.Json.dll
+C:\Project\AspNet\AspNet\bin\Owin.dll
+C:\Project\AspNet\AspNet\bin\System.Web.Helpers.dll
+C:\Project\AspNet\AspNet\bin\System.Web.Mvc.dll
+C:\Project\AspNet\AspNet\bin\System.Web.Optimization.dll
+C:\Project\AspNet\AspNet\bin\System.Web.Razor.dll
+C:\Project\AspNet\AspNet\bin\System.Web.WebPages.Deployment.dll
+C:\Project\AspNet\AspNet\bin\System.Web.WebPages.dll
+C:\Project\AspNet\AspNet\bin\System.Web.WebPages.Razor.dll
+C:\Project\AspNet\AspNet\bin\WebGrease.dll
+C:\Project\AspNet\AspNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Project\AspNet\AspNet\bin\System.Web.Helpers.xml
+C:\Project\AspNet\AspNet\bin\System.Web.Mvc.xml
+C:\Project\AspNet\AspNet\bin\System.Web.Optimization.xml
+C:\Project\AspNet\AspNet\bin\System.Web.Razor.xml
+C:\Project\AspNet\AspNet\bin\System.Web.WebPages.xml
+C:\Project\AspNet\AspNet\bin\System.Web.WebPages.Deployment.xml
+C:\Project\AspNet\AspNet\bin\System.Web.WebPages.Razor.xml
+C:\Project\AspNet\AspNet\bin\Antlr3.Runtime.pdb
+C:\Project\AspNet\AspNet\bin\Newtonsoft.Json.xml
+C:\Project\AspNet\AspNet\bin\EntityFramework.xml
+C:\Project\AspNet\AspNet\bin\EntityFramework.SqlServer.xml
+C:\Project\AspNet\AspNet\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Project\AspNet\AspNet\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Project\AspNet\AspNet\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.xml
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.xml
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.Google.xml
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Project\AspNet\AspNet\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Project\AspNet\AspNet\obj\Debug\AspNet.csprojResolveAssemblyReference.cache
+C:\Project\AspNet\AspNet\obj\Debug\AspNet.dll
+C:\Project\AspNet\AspNet\obj\Debug\AspNet.pdb
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\roslyn\csc.exe
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\roslyn\System.Collections.Immutable.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\roslyn\System.Reflection.Metadata.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\roslyn\vbc.exe
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\roslyn\VBCSCompiler.exe
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\roslyn\VBCSCompiler.exe.config
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\AspNet.dll.config
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\AspNet.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\AspNet.pdb
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Antlr3.Runtime.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\EntityFramework.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\EntityFramework.SqlServer.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.AspNet.Identity.Core.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.Cookies.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.Facebook.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.Google.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.OAuth.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.Twitter.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Web.Infrastructure.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Newtonsoft.Json.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Owin.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.Helpers.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.Mvc.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.Optimization.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.Razor.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.WebPages.Deployment.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.WebPages.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.WebPages.Razor.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\WebGrease.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.Helpers.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.Mvc.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.Optimization.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.Razor.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.WebPages.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.WebPages.Deployment.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\System.Web.WebPages.Razor.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Antlr3.Runtime.pdb
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Newtonsoft.Json.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\EntityFramework.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\EntityFramework.SqlServer.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.AspNet.Identity.Core.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.Facebook.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.Cookies.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.OAuth.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.Google.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.Twitter.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\obj\Debug\AspNet.csprojResolveAssemblyReference.cache
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\obj\Debug\AspNet.dll
+D:\cloud\mail\Программирование\[Geekbrains] Профессия программист Microsoft\C_sharp ASP.NET MVC 5.0\AspNet\AspNet\obj\Debug\AspNet.pdb

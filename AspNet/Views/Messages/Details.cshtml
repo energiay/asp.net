@@ -1,0 +1,101 @@
+﻿@model AspNet.Models.Message
+
+@{
+    ViewBag.Title = "Details";
+    AspNet.Models.Reply reply = new AspNet.Models.Reply();
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Message</h4>
+    <hr />
+   @* <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Text)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Text)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PublishDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PublishDate)
+        </dd>
+
+    </dl>
+       *@
+    @Html.DisplayForModel()
+    @Html.EditorForModel()
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+<hr />
+
+<div>
+    <h4>Reply</h4>
+    @foreach (var item in Model.Replies)
+    {
+        <dl class="dl-horizontal">
+            @*<dt>
+                @Html.DisplayNameFor(modelitem => item.Text)
+            </dt>*@
+
+            <dd>
+                @Html.DisplayFor(modelitem => item.Text)
+            </dd>
+            <dd>
+                @Html.ActionLink("Радактировать", "Edit", "Replies", new { id = item.Id }, null) |
+                @Html.ActionLink("Удалить", "Delete", "Replies", new { id = item.Id }, null)
+            </dd>
+        </dl>
+    }
+</div>
+
+<hr />
+
+@using ( Html.BeginForm("Create", "Replies", FormMethod.Post) )
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(Id => Model.Id)
+
+    <div class="form-horizontal">
+
+        <h4> Написать сообщение </h4>
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @*@Html.LabelFor(model => reply.Text, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <div>
+                <dl class="dl-horizontal">
+                    <dd>
+                        @Html.EditorFor(model => reply.Text, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+                    </dd>
+                </dl>
+             </div>
+        </div>
+        
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10" >
+                <input type="submit" value="Отправить" class="btn btn-default" />
+            </div>
+        </div>
+        
+    </div>
+}

@@ -1,0 +1,14 @@
+﻿@using AspNet.Models
+
+@{
+    ViewBag.Title = "Домашняя страница";
+}
+
+<h2>Домашняя страница</h2>
+
+@*@Html.ActionLink("Мой блог", "Index", "Messages")*@
+@*@Html.ActionLink("Частичное предстовление", "Index", "Messages")*@
+
+<br />
+
+@Html.Partial("_PersonPartial", new Person("Иван","29","Воронеж"))
