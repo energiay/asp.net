@@ -13,24 +13,37 @@ namespace AspNet.DAL
     {
         protected override void Seed(ApplicationDbContext context)
         {
-               /*
-               var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
-               var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+               
+            var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
 
 
 
-               ApplicationUser user = new ApplicationUser()
-               {
-                   UserName = "Admin",
-                   Id = "Admin"
-               };
-               IdentityRole role = new IdentityRole("admin");
+            ApplicationUser user = new ApplicationUser()
+            {
+                UserName = "Admin",
+                Id = "Admin"
+            };
+            IdentityRole role = new IdentityRole("admin");
+
+            userManager.Create(user, "Admin");//(user,password)
+            roleManager.Create(role);
+            userManager.AddToRole(user.Id, role.Name);
 
 
-               userManager.Create(user, "password");
-               roleManager.Create(role);
-               userManager.AddToRole(user.Id, role.Name);
-               */
+
+
+            ApplicationUser user1 = new ApplicationUser()
+            {
+                UserName = "tl",
+                Id = "tl"
+            };
+            IdentityRole role1 = new IdentityRole("user");
+                              
+            userManager.Create(user1, "tl");//(user,password)
+            roleManager.Create(role);
+            userManager.AddToRole(user1.Id, role1.Name);
+                
 
 
 
