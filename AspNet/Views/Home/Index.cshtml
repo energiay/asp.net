@@ -12,3 +12,24 @@
 <br />
 
 @Html.Partial("_PersonPartial", new Person("Иван","29","Воронеж"))
+
+<br />
+<br />
+
+@if ( User.Identity != null && User.Identity.IsAuthenticated )
+{
+    <b>@User.Identity.Name</b>
+    if ( User.IsInRole("admin") )
+    {
+        <br />
+        <i>Приветствую Вас, Администратор!</i>
+    }
+    else
+    {
+        <b>Приветствую Вас, Пользователь!</b>
+    }
+}
+else
+{
+    <b>Приветствую Вас, Гость!</b>
+}

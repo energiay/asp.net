@@ -19,32 +19,32 @@ namespace AspNet.DAL
 
 
 
-            ApplicationUser user = new ApplicationUser()
+            ApplicationUser User = new ApplicationUser()
             {
                 UserName = "Admin",
                 Id = "Admin"
             };
             IdentityRole role = new IdentityRole("admin");
 
-            userManager.Create(user, "Admin");//(user,password)
+            userManager.Create(User, "password");//(user,password)
             roleManager.Create(role);
-            userManager.AddToRole(user.Id, role.Name);
+            userManager.AddToRole(User.Id, role.Name);
 
 
 
-
+    
             ApplicationUser user1 = new ApplicationUser()
             {
                 UserName = "tl",
                 Id = "tl"
             };
-            IdentityRole role1 = new IdentityRole("user");
+            IdentityRole role1 = new IdentityRole("myuser");
                               
             userManager.Create(user1, "tl");//(user,password)
-            roleManager.Create(role);
+            roleManager.Create(role1);
             userManager.AddToRole(user1.Id, role1.Name);
                 
-
+    
 
 
             List<Message> messages = new List<Message>();
