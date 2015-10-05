@@ -14,5 +14,9 @@ namespace AspNet.Models
 
         public int MessageId { get; set; }
         public virtual Message Message { get; set; } // что бы слинковать сообщения
+
+        public string UserId { get; set; }
+
+        public virtual ApplicationUser User { get; set; }
     }
 }

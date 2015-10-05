@@ -151,7 +151,11 @@ namespace AspNet.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Login };
+                var user = new ApplicationUser { UserName = model.Login,
+                                                 Age = model.Age,
+                                                 MyEmail =  model.myEmail,
+                                                 Pol = model.Pol };
+
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

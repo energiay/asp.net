@@ -40,7 +40,7 @@ namespace AspNet.DAL
             };
             IdentityRole role1 = new IdentityRole("myuser");
                               
-            userManager.Create(user1, "tl");//(user,password)
+            userManager.Create(user1, "111111");//(user,password)
             roleManager.Create(role1);
             userManager.AddToRole(user1.Id, role1.Name);
                 

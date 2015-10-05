@@ -249,6 +249,7 @@
     <Content Include="Views\Replies\Create.cshtml" />
     <Content Include="Views\Replies\Delete.cshtml" />
     <Content Include="Views\Replies\Edit.cshtml" />
+    <Content Include="Views\Shared\_userPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<AspNet.Models.Message>
+﻿    @model IEnumerable<AspNet.Models.Message>
 
 @{
     ViewBag.Title = "Index";
@@ -29,7 +29,21 @@
             @Html.DisplayFor(modelItem => item.Title)
         </td>
         <td>
+
+            @*
             @Html.DisplayFor(modelItem => item.Text)
+            *@
+
+
+            @Html.Raw( item.Text.Replace("\n", "<br>") ) @* Делаем переход на другую строку *@
+
+            @if (item.User != null)
+            {
+                <br />
+                <i>@item.User.UserName</i>
+            }
+
+
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.PublishDate)

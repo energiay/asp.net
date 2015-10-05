@@ -12,7 +12,7 @@ namespace AspNet.Models
 
         public string MyEmail { get; set; }
 
-        public int Age { get; set; }
+        public string Age { get; set; }
 
         public string Pol { get; set; }
 

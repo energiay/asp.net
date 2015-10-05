@@ -16,7 +16,10 @@
 <br />
 <br />
 
-@if ( User.Identity != null && User.Identity.IsAuthenticated )
+
+
+
+@if (User.Identity != null && User.Identity.IsAuthenticated)
 {
     <b>@User.Identity.Name</b>
     if ( User.IsInRole("admin") )
@@ -26,10 +29,21 @@
     }
     else
     {
+        <br />
         <b>Приветствую Вас, Пользователь!</b>
     }
+    <br />
+
+    <b>Вам @ViewData["Age"] лет</b>
+    <br />
+    <b>Ваша почта: @ViewData["MyEmail"]</b>
+    <br />
+    <b>Ваш пол: @ViewData["Pol"] </b>
+
+
 }
 else
 {
+    <br />
     <b>Приветствую Вас, Гость!</b>
 }

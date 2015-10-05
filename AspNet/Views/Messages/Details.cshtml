@@ -10,7 +10,7 @@
 <div>
     <h4>Message</h4>
     <hr />
-   @* <dl class="dl-horizontal">
+    <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.Title)
         </dt>
@@ -36,9 +36,11 @@
         </dd>
 
     </dl>
-       *@
+     @*  
     @Html.DisplayForModel()
     @Html.EditorForModel()
+       *@
+
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
@@ -58,6 +60,11 @@
 
             <dd>
                 @Html.DisplayFor(modelitem => item.Text)
+                @if (item.User != null)
+                {
+                    <br />
+                    <i>@item.User.UserName</i>
+                }
             </dd>
             <dd>
                 @Html.ActionLink("Радактировать", "Edit", "Replies", new { id = item.Id }, null) |

@@ -1,4 +1,6 @@
 ﻿using AspNet.Models;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -39,6 +41,10 @@ namespace AspNet.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(db));
+                    reply.User = userManager.FindByName(User.Identity.Name);
+
+
                     reply.MessageId = (int)Id;
                     reply.PublishDate = DateTime.Now;
                     db.Replies.Add(reply);
@@ -50,16 +56,16 @@ namespace AspNet.Controllers
 
             return View();
 
-         }
+        }
 
         public ActionResult Delete(int? Id)
         {
-            if(Id==null)
+            if (Id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Reply reply = db.Replies.Find(Id);
-            if(reply == null)
+            if (reply == null)
             {
                 return HttpNotFound();
             }
@@ -81,6 +87,10 @@ namespace AspNet.Controllers
 
         public ActionResult Edit(int? Id)
         {
+
+
+
+
             if (Id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
@@ -91,7 +101,20 @@ namespace AspNet.Controllers
                 return HttpNotFound();
             }
             TempData["id"] = reply.Message.Id;
-            return View(reply);
+
+            UserManager<ApplicationUser> userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(db));
+            var userNow = userManager.FindByName(User.Identity.Name);
+
+            var myUserId = User.Identity.GetUserId();
+            var b = User.IsInRole("admin");
+
+
+            if ( b || myUserId == reply.UserId)
+            {
+                return View(reply);
+            }
+
+            return new HttpStatusCodeResult(HttpStatusCode.Unauthorized);
 
         }
 

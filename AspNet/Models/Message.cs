@@ -36,5 +36,9 @@ namespace AspNet.Models
         [NotMapped]   // Поле не будет добавляться в БД
         public string Text3  { get; set; }
 
+        public string UserId { get; set; }
+
+        public virtual ApplicationUser User { get; set; }
+
     }
 }

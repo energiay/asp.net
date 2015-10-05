@@ -4,6 +4,8 @@ using System.Net;
 using System.Web.Mvc;
 using AspNet.Models;
 using System.Text.RegularExpressions;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace AspNet.Controllers
 {
@@ -33,6 +35,7 @@ namespace AspNet.Controllers
         }
 
         // GET: Messages/Create
+        //[Authorize(Roles="admin")]
         public ActionResult Create()
         {
             return View();
@@ -43,8 +46,16 @@ namespace AspNet.Controllers
         // сведения см. в статье http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        //[Authorize(Roles="admin")]
         public ActionResult Create([Bind(Include = "Id,Title,Text,PublishDate")] Message message)
         {
+            if ( !User.IsInRole("admin") )
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.Unauthorized);
+            }
+
+
+
             if (message.Title != null)
             {
                 if (message.Title.StartsWith("!!!"))
@@ -64,6 +75,9 @@ namespace AspNet.Controllers
 
             if (ModelState.IsValid)
             {
+                Microsoft.AspNet.Identity.UserManager<ApplicationUser> userManager = new UserManager<ApplicationUser>( new UserStore<ApplicationUser>(db)  );
+                message.User = userManager.FindByName( User.Identity.Name );
+
                 db.Messages.Add(message);
                 db.SaveChanges();
                 return RedirectToAction("Index");
