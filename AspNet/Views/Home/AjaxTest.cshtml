@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "AjaxTest";
+}
+
+<h2>AjaxTest</h2>
+
+<br />
+@Ajax.ActionLink("Перевернуть строку","_StrTest","Home", new AjaxOptions() { UpdateTargetId="xxx" })
+<br />
+Введенная строка: <div>@TempData["str"]</div>
+Перевернутая строка: <div id="xxx"> null </div>

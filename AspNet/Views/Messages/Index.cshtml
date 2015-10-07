@@ -1,4 +1,9 @@
-﻿    @model IEnumerable<AspNet.Models.Message>
+﻿@*@model IEnumerable<AspNet.Models.Message>*@
+@model PagedList.IPagedList<AspNet.Models.Message>
+@using PagedList.Mvc;
+
+
+
 
 @{
     ViewBag.Title = "Index";
@@ -12,13 +17,13 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Title)
+            @Html.DisplayName("Title")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Text)
+            @Html.DisplayName("Text")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.PublishDate)
+            @Html.DisplayName("PublishDate")
         </th>
         <th></th>
     </tr>
@@ -57,3 +62,9 @@
 }
 
 </table>
+
+
+<br />
+Страница @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) из @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page }))

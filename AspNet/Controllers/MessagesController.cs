@@ -6,6 +6,10 @@ using AspNet.Models;
 using System.Text.RegularExpressions;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Collections.Generic;
+using PagedList.Mvc;
+using PagedList;
+
 
 namespace AspNet.Controllers
 {
@@ -13,10 +17,32 @@ namespace AspNet.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
-        // GET: Messages
-        public ActionResult Index()
+        List<Message> lmessage;
+        Message message;
+
+        public MessagesController()
         {
-            return View(db.Messages.ToList());
+
+
+            lmessage = new List<Message>();
+            for (int id = 1; id < 30; id++)
+            {
+                message = db.Messages.Find(id);
+                if (message == null)
+                {
+                    break;
+                }
+                lmessage.Add(message);
+            }
+        }
+
+        // GET: Messages
+        public ActionResult Index(int? page)
+        {
+            int pageSize = 3;
+            int pageNumber = (page ?? 1);
+            return View(lmessage.ToPagedList(pageNumber, pageSize));
+            //return View(db.Messages.ToList());
         }
 
         // GET: Messages/Details/5

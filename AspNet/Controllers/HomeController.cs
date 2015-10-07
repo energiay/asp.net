@@ -7,10 +7,15 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
 namespace AspNet.Controllers
 {
     public class HomeController : Controller
     {
+
+        
+
+
         public ActionResult Index(ApplicationDbContext context)
         {
             if (User.Identity != null && User.Identity.IsAuthenticated)
@@ -25,6 +30,18 @@ namespace AspNet.Controllers
             }
 
             return View();
+        }
+
+        public ActionResult AjaxTest()
+        {
+            TempData["str"] = "123456789";
+            return View();
+        }
+
+        public PartialViewResult _StrTest (string str = "123456789")
+        {
+            ViewBag.str1 = str;
+            return PartialView();
         }
 
 

@@ -294,3 +294,7 @@ C:\Project\asp.net\AspNet\bin\ru\Microsoft.Owin.Security.Google.resources.dll
 C:\Project\asp.net\AspNet\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Project\asp.net\AspNet\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Project\asp.net\AspNet\bin\WebActivatorEx.dll
+C:\Project\asp.net\AspNet\bin\PagedList.dll
+C:\Project\asp.net\AspNet\bin\PagedList.Mvc.dll
+C:\Project\asp.net\AspNet\bin\PagedList.xml
+C:\Project\asp.net\AspNet\bin\PagedList.Mvc.xml
