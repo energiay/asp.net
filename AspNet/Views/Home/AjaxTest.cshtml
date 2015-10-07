@@ -6,7 +6,9 @@
 <h2>AjaxTest</h2>
 
 <br />
-@Ajax.ActionLink("Перевернуть строку","_StrTest","Home", new AjaxOptions() { UpdateTargetId="xxx" })
+@Ajax.ActionLink("Перевернуть строку","_StrTest", "Home", new AjaxOptions() { UpdateTargetId="xxx"})
 <br />
-Введенная строка: <div>@TempData["str"]</div>
+<br />
+Cтрока: <div>@TempData["str"]</div>
+<br />
 Перевернутая строка: <div id="xxx"> null </div>
