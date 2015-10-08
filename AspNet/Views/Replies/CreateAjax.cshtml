@@ -1,0 +1,16 @@
+﻿@model AspNet.Models.Reply
+
+<dl class="dl-horizontal">
+    <dd>
+        @Html.DisplayFor(modelitem => Model.Text)
+        @if (Model.User != null)
+        {
+            <br />
+                    <i>@Model.User.UserName</i>
+        }
+    </dd>
+    <dd>
+        @Html.ActionLink("Радактировать", "Edit", "Replies", new { id = Model.Id }, null) |
+        @Html.ActionLink("Удалить", "Delete", "Replies", new { id = Model.Id }, null)
+    </dd>
+</dl>

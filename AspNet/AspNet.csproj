@@ -333,6 +333,8 @@
     <Content Include="Views\Shared\_userPartial.cshtml" />
     <Content Include="Views\Home\AjaxTest.cshtml" />
     <Content Include="Views\Home\_StrTest.cshtml" />
+    <Content Include="Views\Replies\CreateAjax.cshtml" />
+    <Content Include="Views\Replies\_CreateAjax.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

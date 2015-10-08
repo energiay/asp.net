@@ -58,6 +58,32 @@ namespace AspNet.Controllers
 
         }
 
+
+        //public PartialViewResult _CreateAjax(int? Id, [Bind(Include = "Id,MessageId,Text,PublishDate")]Reply reply1, string Text1)
+        public PartialViewResult _CreateAjax(int? Id, string mytext)
+        {
+            Message message = db.Messages.Find(Id);
+
+            Reply reply = new Reply();
+
+            ViewBag.Tezt = mytext;
+
+            reply.MessageId = (int)Id;
+            reply.UserId = User.Identity.GetUserId();
+            reply.Text = mytext;
+            reply.PublishDate = DateTime.Now;
+
+            db.Replies.Add(reply);
+            db.SaveChanges();
+
+            ViewBag.Text = mytext;
+            ViewBag.User = User.Identity.Name;
+            ViewBag.Id = reply.Id;
+
+            return PartialView(message);
+
+        }
+
         public ActionResult Delete(int? Id)
         {
             if (Id == null)
@@ -101,12 +127,14 @@ namespace AspNet.Controllers
                 return HttpNotFound();
             }
             TempData["id"] = reply.Message.Id;
+            TempData["UserId"] = reply.UserId;
 
             UserManager<ApplicationUser> userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(db));
             var userNow = userManager.FindByName(User.Identity.Name);
 
             var myUserId = User.Identity.GetUserId();
             var b = User.IsInRole("admin");
+
 
 
             if ( b || myUserId == reply.UserId)
@@ -124,6 +152,16 @@ namespace AspNet.Controllers
         {
             if(ModelState.IsValid)
             {
+
+                if (User.IsInRole("admin"))
+                {
+                    reply.UserId = (string)TempData["UserId"];
+                }
+                else
+                {
+                    reply.UserId = User.Identity.GetUserId();
+                }
+
                 reply.MessageId = (int)TempData["id"];
                 reply.PublishDate = DateTime.Now;
                 db.Entry(reply).State = EntityState.Modified;

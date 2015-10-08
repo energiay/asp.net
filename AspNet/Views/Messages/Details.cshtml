@@ -51,32 +51,36 @@
 
 <div>
     <h4>Reply</h4>
-    @foreach (var item in Model.Replies)
-    {
-        <dl class="dl-horizontal">
-            @*<dt>
-                @Html.DisplayNameFor(modelitem => item.Text)
-            </dt>*@
+    <div id="rep">
+        @foreach (var item in Model.Replies)
+        {
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(modelitem => item.Text)
+                </dt>
 
-            <dd>
-                @Html.DisplayFor(modelitem => item.Text)
-                @if (item.User != null)
+                <dd>
+                    @Html.DisplayFor(modelitem => item.Text)
+                    @if (item.User != null)
                 {
-                    <br />
-                    <i>@item.User.UserName</i>
-                }
-            </dd>
-            <dd>
-                @Html.ActionLink("Радактировать", "Edit", "Replies", new { id = item.Id }, null) |
-                @Html.ActionLink("Удалить", "Delete", "Replies", new { id = item.Id }, null)
-            </dd>
-        </dl>
-    }
+                        <br />
+                        <i>@item.User.UserName</i>
+                    }
+                </dd>
+                <dd>
+                    @Html.ActionLink("Радактировать", "Edit", "Replies", new { id = item.Id }, null) |
+                    @Html.ActionLink("Удалить", "Delete", "Replies", new { id = item.Id }, null)
+                </dd>
+            </dl>
+        }
+
+    </div>
 </div>
+
 
 <hr />
 
-@using ( Html.BeginForm("Create", "Replies", FormMethod.Post) )
+@using (Html.BeginForm("Create", "Replies", FormMethod.Post))
 {
     @Html.AntiForgeryToken()
     @Html.HiddenFor(Id => Model.Id)
@@ -97,12 +101,22 @@
                 </dl>
              </div>
         </div>
-        
+            
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10" >
                 <input type="submit" value="Отправить" class="btn btn-default" />
             </div>
         </div>
-        
+
     </div>
+
+    <hr />
+
+
+}
+
+@using (Ajax.BeginForm("_CreateAjax", "Replies", new { Model.Id } , new AjaxOptions() { UpdateTargetId = "rep" }))
+{
+    @:Сообщение: @Html.TextBox("mytext")
+    <input type="submit" value="Отправить через Ajax" />
 }

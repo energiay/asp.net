@@ -8,7 +8,9 @@
         str = str + str2[i].ToString();
     }
 
-    ViewBag.str1 = str;
+    str = str.Substring(ViewBag.a, ViewBag.b);
 }
 
-@ViewBag.str1
+Исходная строка: @ViewBag.str1
+<br />
+Перевернутая строка: @str

@@ -136,6 +136,7 @@ namespace AspNet.Controllers
         {
             if (ModelState.IsValid)
             {
+
                 db.Entry(message).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");

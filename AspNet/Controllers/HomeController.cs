@@ -38,9 +38,11 @@ namespace AspNet.Controllers
             return View();
         }
 
-        public PartialViewResult _StrTest (string str = "123456789")
+        public PartialViewResult _StrTest (string str = "123456789", int a=0, int b=8)
         {
             ViewBag.str1 = str;
+            ViewBag.a = a;
+            ViewBag.b = b;
             return PartialView();
         }
 
